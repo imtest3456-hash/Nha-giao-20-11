@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>20/11</title>
+
+    <!-- CSS -->
+    <style>
+        body{
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+
+        header{
+            background: #c62828;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav{
+            background: #e53935;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a{
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main{
+            padding: 20px;
+        }
+
+        section{
+            background: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        footer{
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+  .banner{
+    width: 100%;
+    height: 180px;              /* banner vừa phải */
+    background: #c62828;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;           /* QUAN TRỌNG: tránh ảnh tràn */
+}
+
+.banner img{
+    max-height: 140px;          /* 👈 thu nhỏ logo */
+    max-width: 140px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+/* ===== GÓC THƠ ===== */
+.poem{
+    text-align:center;
+    line-height:1.8;
+    font-style:italic;
+    font-size:16px;
+}
+
+/* ===== GÓC BÌNH LUẬN ===== */
+.comment-form{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.comment-form input,
+.comment-form textarea{
+    width:100%;
+    padding:8px;
+    font-family:"Times New Roman", serif;
+    font-size:15px;
+    border:1.5px solid #c9a300;
+    background:#fffdf5;
+}
+
+.comment-form textarea{
+    min-height:100px;
+    resize:vertical;
+}
+
+.comment-form button{
+    width:80px;
+    padding:6px;
+    background:#8b0000;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+/* ===== LỜI CHÚC ===== */
+.wish{
+    text-align:center;
+    font-weight:bold;
+}
+    </style>
+</head>
+
+<body>
+<header class="banner">
+    <img src="https://sf-static.upanhlaylink.com/img/image_20260204c3f55fda681ab511aab143348103230a.jpg" alt="Messenger_creation_1900932610792376.jpeg">
+</header>
+    <header>
+        <h1>NGƯỜI THẮP LỬA KHÁT VỌNG </h1>
+        <h2>Chào mừng Ngày Nhà Giáo Việt Nam 20/11</h2>
+        <p>Trường THPT Lê Quý Đôn</p>
+    </header>
+
+   <nav>
+  <a href="index.html">Trang chủ</a>
+  
+</nav>
+
+    <!-- NỘI DUNG CHÍNH -->
+    <main>
+
+        <section>
+            <h2>Giới thiệu</h2>
+            <p>
+                Ngày Nhà giáo Việt Nam 20/11 (hay Ngày lễ Hiến chương Nhà giáo Việt Nam) là ngày lễ tri ân truyền thống, được tổ chức hàng năm vào ngày 20 tháng 11 tại Việt Nam để tôn vinh các thầy cô giáo và những người làm công tác giáo dục, thể hiện đạo lý "tôn sư trọng đạo" và lòng biết ơn của các thế hệ học trò. 
+            </p>
+        </section>
+
+        <section>
+            <h2>Hoạt động tiêu biểu</h2>
+            <p>Văn nghệ – Thể thao – Tình nguyện</p>
+        </section>
+<div>
+        <section>
+            <h2>Hình ảnh</h2>
+            <img src="https://sf-static.upanhlaylink.com/img/image_20260208bf5779f20d7822d881bc2fc696c8ea85.jpg" alt="Messenger_creation_3611A9DB-FA1A-42EC-A7B1-851C982FCBAD.jpeg" width="40%">
+           <img src="https://sf-static.upanhlaylink.com/img/image_202602086f12333baf99cc0e2181fe59e5453d91.jpg" alt="Messenger_creation_3A076391-3AB7-437C-AB5D-5A38BBADB81B.jpeg" width="40%">
+           </div>
+           <div>
+               <img src="https://sf-static.upanhlaylink.com/img/image_20260208470060bc61f4fdcce52a80b89ae325df.jpg" alt="Messenger_creation_83A1882B-8272-4DAD-9969-FCA226943E88.jpeg"width="40%">
+               <img src="https://sf-static.upanhlaylink.com/img/image_202602087b6d5a2af83141fc3868effbb291761c.jpg" alt="Messenger_creation_016BB0E7-C648-4B32-95DC-4208C52EF157.jpeg"width="30%" 
+           </div>
+           <div>
+               <img src="https://sf-static.upanhlaylink.com/img/image_202602084baf13b7dee645bd04d08b646335ca11.jpg" alt="Messenger_creation_C194A00F-9AA4-4C87-A4E4-ECED329D9DB2.jpeg"width="40%">
+               <img src="https://sf-static.upanhlaylink.com/img/image_202602082b3a7eed49d0d8d7715c402c92e9d9b9.jpg" alt="Messenger_creation_645C4F0D-8682-4EA0-8CDD-E3F4C9EEE4BB.jpeg"width="40%">
+           </div>
+        </section>
+        
+<!-- GÓC THƠ -->
+<section class="box">
+    <h2>Góc Thơ</h2>
+    <div class="poem">
+        <p>Có những chiều hè, phượng đỏ rơi</p>
+        <p>Còn đâu năm cũ, sắp qua rồi.</p>
+        <p>Thương người bạn cũ, ân sâu nặng</p>
+        <p>Nhớ lại thầy xưa, tình chẳng phôi.</p>
+        <p>Muốn được cho đi, thầy phải có</p>
+        <p>Tâm thành đón nhận, lẽ trò tôi.</p>
+        <p>Cho không phải mất, tình muôn thuở.</p>
+        <p>Nhận được đời vui, nghĩa thế thôi.</p>
+    </div>
+</section>
+
+<!-- GÓC BÌNH LUẬN -->
+<section class="box">
+    <h2>Góc Bình Luận</h2>
+    <form class="comment-form">
+        <label>Họ và tên:</label>
+        <input type="text" placeholder="Nhập họ tên">
+
+        <label>Nội dung bình luận:</label>
+        <textarea placeholder="Nhập nội dung..."></textarea>
+
+        <button type="submit">Gửi</button>
+    </form>
+</section>
+
+<!-- LỜI CHÚC -->
+<section class="box">
+    <h2>Lời Chúc</h2>
+    <p class="wish">
+        🌸 Tập thể nhóm 6 xin kính chúc  cô thắm luôn mạnh khỏe,
+        hạnh phúc và thành công trên mọi lĩnh vực 🌸
+    </p>
+</section>
+    </main>
+
+    <!-- CHÂN TRANG -->
+    <footer>
+        <div> <p>© 2026 - Trang web chào mừng 20/11</p>
+        <div> nhóm 6 
+      </div>
+      <div> sơn</div>
+      <div> khánh ngọc</div>
+      <div>quân lac</div>
+      <div>hoàng gia </div>
+      <div>giang</div>
+      <div> trang</div>
+    </footer>
+
+</body>
+  </html>
